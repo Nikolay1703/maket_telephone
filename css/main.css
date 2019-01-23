@@ -1,0 +1,238 @@
+body {
+  background-image: url("../img/fon_top.gif");
+  background-repeat: no-repeat;
+  background-size: 1920px auto;
+}
+
+.container {
+  margin: auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.top_nav {
+  margin-top: 90px;
+  width: 1170px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 33.5px;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.top_nav_menu {
+  margin-left: 37px;
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.top_nav_menu li {
+  margin-right: 37px;
+}
+
+.top_nav_menu li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.top_nav .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  width: 242px;
+  height: 76px;
+  border-radius: 38px;
+  cursor: pointer;
+}
+
+.top_nav .button .text_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  font-family: Montserrat;
+  font-size: 25.5px;
+  line-height: 1.49;
+  color: #4085f6;
+}
+
+.opisanie {
+  width: 1275px;
+  margin-left: -102px;
+}
+
+.opisanie .zagolovok {
+  margin-top: 229px;
+  width: 592px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: right;
+}
+
+.opisanie .text {
+  width: 591px;
+  margin-top: 14px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 20px;
+  line-height: 1.8;
+  text-align: right;
+  margin-bottom: 75px;
+}
+
+.opisanie .col-md-auto_link {
+  margin-right: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #22233a;
+  width: 230px;
+  height: 81px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.opisanie .col-md-auto_link .col-md-auto_icons {
+  margin-left: 62px;
+  margin-top: 11px;
+}
+
+.opisanie .col-md-auto_link .row_text {
+  width: 90px;
+  margin-right: 62px;
+}
+
+.opisanie .col-md-auto_link .row_text .col-md-auto_text_top {
+  margin-top: 11px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 13.5px;
+  line-height: 2.56;
+  text-align: left;
+}
+
+.opisanie .col-md-auto_link .row_text .col-md-auto_text_bottom {
+  margin-top: -6px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.39;
+  text-align: left;
+}
+
+.about_the_app {
+  margin-left: 129px;
+}
+
+.about_the_app .header_app {
+  margin-top: -10px;
+  color: #5d5d5d;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+}
+
+.about_the_app .text_app {
+  margin-top: 42px;
+  margin-bottom: 79px;
+  color: #737373;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.href_menu {
+  width: 1200px;
+}
+
+.href_menu .support {
+  position: relative;
+  width: 358px;
+  height: 391px;
+  margin-right: 16px;
+  -webkit-box-shadow: 0.7px 1.9px 19.6px 0.4px rgba(34, 31, 31, 0.2);
+          box-shadow: 0.7px 1.9px 19.6px 0.4px rgba(34, 31, 31, 0.2);
+}
+
+.href_menu .support .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 131px;
+  top: 55px;
+  width: 96px;
+  height: 95px;
+  background-color: #f3f5f8;
+  border-radius: 5px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.href_menu .support .image .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  cursor: pointer;
+}
+
+.href_menu .support .header_support {
+  padding-top: 182px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #5d5d5d;
+  font-weight: bold;
+  text-align: center;
+}
+
+.href_menu .support .text_support {
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 24px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.88;
+  color: #737373;
+  text-align: center;
+}
+
+.functions {
+  background-image: url("../img/image-2.gif");
+  background-repeat: no-repeat;
+  background-size: 1920px 1297px;
+  padding-top: 1844px;
+}
+/*# sourceMappingURL=main.css.map */
