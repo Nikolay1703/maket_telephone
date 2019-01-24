@@ -4,15 +4,9 @@ body {
   background-size: 1920px auto;
 }
 
-.container {
-  margin: auto;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-}
-
 .top_nav {
   margin-top: 90px;
+  margin-left: 360px;
   width: 1170px;
   color: #ffffff;
   font-family: Poppins;
@@ -72,7 +66,7 @@ body {
 
 .opisanie {
   width: 1275px;
-  margin-left: -102px;
+  margin-left: 255px;
 }
 
 .opisanie .zagolovok {
@@ -137,10 +131,6 @@ body {
   text-align: left;
 }
 
-.about_the_app {
-  margin-left: 129px;
-}
-
 .about_the_app .header_app {
   margin-top: -10px;
   color: #5d5d5d;
@@ -154,6 +144,8 @@ body {
 .about_the_app .text_app {
   margin-top: 42px;
   margin-bottom: 79px;
+  margin-left: 479px;
+  width: 913px;
   color: #737373;
   font-family: Poppins;
   font-weight: 400;
@@ -163,7 +155,7 @@ body {
 }
 
 .href_menu {
-  width: 1200px;
+  margin-bottom: 90px;
 }
 
 .href_menu .support {
@@ -232,7 +224,7 @@ body {
 .functions {
   background-image: url("../img/image-2.gif");
   background-repeat: no-repeat;
-  background-size: 1920px 1297px;
+  background-size: 1920px auto;
   padding-top: 1844px;
 }
 /*# sourceMappingURL=main.css.map */
