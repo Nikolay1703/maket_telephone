@@ -4,6 +4,10 @@ body {
   background-size: 1920px auto;
 }
 
+.container-fluid {
+  margin: auto;
+}
+
 .top_nav {
   margin-top: 90px;
   margin-left: 360px;
@@ -167,6 +171,36 @@ body {
           box-shadow: 0.7px 1.9px 19.6px 0.4px rgba(34, 31, 31, 0.2);
 }
 
+.href_menu .support:hover .image {
+  background-color: #4085f6;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.href_menu .support:hover .image .icon1 {
+  background: url("../img/nausniki_hover.gif");
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.href_menu .support:hover .image .icon2 {
+  background: url("../img/zamok_hover.gif");
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.href_menu .support:hover .image .icon3 {
+  background: url("../img/download_hover.gif");
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.href_menu .support:hover .header_support {
+  color: #4085f6;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
 .href_menu .support .image {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -180,9 +214,10 @@ body {
   border-radius: 5px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+  cursor: pointer;
 }
 
-.href_menu .support .image .icon {
+.href_menu .support .image .icon1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -196,6 +231,47 @@ body {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   cursor: pointer;
+  background: url("../img/nausniki.gif");
+  width: 32px;
+  height: 37px;
+}
+
+.href_menu .support .image .icon2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  cursor: pointer;
+  background: url("../img/zamok.gif");
+  width: 30px;
+  height: 34px;
+}
+
+.href_menu .support .image .icon3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  cursor: pointer;
+  background: url("../img/download.gif");
+  width: 30px;
+  height: 28px;
 }
 
 .href_menu .support .header_support {
@@ -207,6 +283,7 @@ body {
   color: #5d5d5d;
   font-weight: bold;
   text-align: center;
+  cursor: pointer;
 }
 
 .href_menu .support .text_support {
@@ -222,9 +299,280 @@ body {
 }
 
 .functions {
+  width: 1920px;
+  height: 1297px;
+  margin-left: -45px;
   background-image: url("../img/image-2.gif");
   background-repeat: no-repeat;
-  background-size: 1920px auto;
-  padding-top: 1844px;
+  background-size: 1920px 1297px;
+  margin-bottom: 100px;
+}
+
+.functions .header_features {
+  padding-top: 84px;
+  margin-left: 22.5px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+}
+
+.functions .text_features {
+  margin-top: 35px;
+  margin-bottom: 94px;
+  margin-left: 501.5px;
+  width: 913px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.functions .col-md-auto_imageTel2 {
+  margin-right: 164px;
+}
+
+.functions .col-md-auto_options .option_features {
+  margin-bottom: 61px;
+}
+
+.functions .col-md-auto_options .col-md-auto_imageOption {
+  cursor: pointer;
+}
+
+.functions .col-md-auto_options .col-md-auto_wordOption {
+  margin-left: 37px;
+}
+
+.functions .col-md-auto_options .col-md-auto_wordOption .nameOption {
+  margin-top: -10px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.functions .col-md-auto_options .col-md-auto_wordOption .textOption {
+  padding-top: 15px;
+  width: 554px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.88;
+  color: #ffffff;
+  text-align: left;
+}
+
+.price {
+  width: 1920px;
+  height: 966px;
+  margin-left: -45px;
+  background-color: #f8f6f6;
+}
+
+.price .header_price {
+  padding-top: 82px;
+  color: #5d5d5d;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+}
+
+.price .text_price {
+  margin-top: 43px;
+  margin-bottom: 94px;
+  margin-left: 501.5px;
+  width: 913px;
+  color: #737373;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.price .col-md-auto_tarif {
+  width: 366px;
+  height: 507px;
+  margin-right: 18px;
+  margin-left: 18px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0.7px 1.9px 5.6px 0.4px rgba(34, 31, 31, 0.24);
+          box-shadow: 0.7px 1.9px 5.6px 0.4px rgba(34, 31, 31, 0.24);
+  border: 2px solid #226be2;
+}
+
+.price .col-md-auto_tarif:hover {
+  height: 557px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, right top, left top, from(#4085f6), to(#1760d7));
+  background-image: linear-gradient(to left, #4085f6, #1760d7);
+  margin-top: -25px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.price .col-md-auto_tarif:hover .tarif_plan {
+  color: #ffffff;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.price .col-md-auto_tarif:hover .tarif_price {
+  color: #ffffff;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.price .col-md-auto_tarif:hover .limited_header {
+  color: #ffffff;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.price .col-md-auto_tarif:hover .limited_list .checkbox-custom,
+.price .col-md-auto_tarif:hover .limited_list .label {
+  color: #ffffff;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.price .col-md-auto_tarif:hover .limited_list .checkbox:checked + .checkbox-custom::before {
+  content: url("../img/check_hover.gif");
+}
+
+.price .col-md-auto_tarif .tarif_plan {
+  padding-top: 33px;
+  color: #5d5d5d;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.price .col-md-auto_tarif .tarif_price {
+  padding-top: 24px;
+  color: #4085f6;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+}
+
+.price .col-md-auto_tarif .limited_header {
+  padding-top: 22px;
+  color: #5d5d5d;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 2;
+  text-align: center;
+}
+
+.price .col-md-auto_tarif .limited_list {
+  margin-top: 35px;
+}
+
+.price .col-md-auto_tarif .limited_list .checkbox {
+  display: none;
+}
+
+.price .col-md-auto_tarif .limited_list .checkbox-custom {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid #e05809;
+}
+
+.price .col-md-auto_tarif .limited_list .checkbox-custom,
+.price .col-md-auto_tarif .limited_list .label {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2.1;
+  color: #737373;
+}
+
+.price .col-md-auto_tarif .limited_list .checkbox:checked + .checkbox-custom::before {
+  content: url("../img/check.gif");
+  display: block;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  left: 1px;
+}
+
+.price .col-md-auto_tarif .button_purchase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 33px;
+  margin-left: 81px;
+  background-color: #f8f6f6;
+  width: 205px;
+  height: 55px;
+  border-radius: 27px;
+  cursor: pointer;
+  border: 2px solid #226be2;
+}
+
+.price .col-md-auto_tarif .button_purchase .text_button_purchase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2;
+  color: #4085f6;
+}
+
+.header_screenshots {
+  margin-top: 185px;
+  color: #5d5d5d;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+}
+
+.text_screenshots {
+  margin-top: 51px;
+  margin-left: 561px;
+  width: 798px;
+  color: #737373;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.8;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

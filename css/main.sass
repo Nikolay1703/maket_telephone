@@ -8,11 +8,8 @@ body
  background-size: 1920px auto
 
 .container-fluid
+ margin: auto
   
-  
-
-
-
 .top_nav
  margin-top: 90px
  margin-left: 360px
@@ -134,6 +131,25 @@ body
     height: 391px
     margin-right: 16px
     box-shadow: 0.7px 1.9px 19.6px 0.4px rgba(34, 31, 31, 0.2)
+
+    &:hover
+      .image
+       background-color: $button_color
+       transition: all 0.4s ease
+       .icon1
+         background: url('../img/nausniki_hover.gif')
+         transition: all 0.4s ease
+       .icon2
+         background: url('../img/zamok_hover.gif')
+         transition: all 0.4s ease
+       .icon3
+         background: url('../img/download_hover.gif')
+         transition: all 0.4s ease
+      
+      .header_support
+       color: $button_color
+       transition: all 0.4s ease
+    
     .image
      display: flex
      position: absolute
@@ -144,15 +160,41 @@ body
      background-color: #f3f5f8
      border-radius: 5px
      transform: rotate(45deg)
-     
-       
-     .icon
+     cursor: pointer
+           
+                 
+     .icon1
       display: flex
       justify-content: center
       align-items: center
       margin: auto
       transform: rotate(-45deg)
       cursor: pointer
+      background: url('../img/nausniki.gif')
+      width: 32px
+      height: 37px
+     .icon2
+      display: flex
+      justify-content: center
+      align-items: center
+      margin: auto
+      transform: rotate(-45deg)
+      cursor: pointer
+      background: url('../img/zamok.gif')
+      width: 30px
+      height: 34px
+     .icon3
+      display: flex
+      justify-content: center
+      align-items: center
+      margin: auto
+      transform: rotate(-45deg)
+      cursor: pointer
+      background: url('../img/download.gif')
+      width: 30px
+      height: 28px
+      
+     
     .header_support
      padding-top: 182px
      font-family: Montserrat
@@ -162,7 +204,9 @@ body
      color: $text_header
      font-weight: bold
      text-align: center
-          
+     cursor: pointer
+     
+        
     .text_support
       padding-left: 26px
       padding-right: 26px 
@@ -175,10 +219,232 @@ body
       text-align: center
      
 .functions
+ width: 1920px
+ height: 1297px
+ margin-left: -45px
  background-image: url('../img/image-2.gif')
  background-repeat: no-repeat
- background-size: 1920px auto
- padding-top: 1844px
+ background-size: 1920px 1297px
+ margin-bottom: 100px
+ .header_features
+   padding-top: 84px
+   margin-left: 22.5px
+   color: $white
+   font-family: Montserrat
+   font-size: 36px
+   font-weight: 500
+   line-height: 1
+   text-align: center
+
+ .text_features
+   margin-top: 35px
+   margin-bottom: 94px
+   margin-left: 501.5px
+   width: 913px
+   color: $white
+   font-family: Poppins
+   font-weight: 400
+   font-size: 20px
+   line-height: 1.8
+   text-align: center
+
+ .col-md-auto_imageTel2
+   margin-right: 164px
+
+ .col-md-auto_options
+   .option_features
+     margin-bottom: 61px
+   .col-md-auto_imageOption
+     cursor: pointer
+   .col-md-auto_wordOption
+     margin-left: 37px
+     .nameOption
+       margin-top: -10px
+       color: $white
+       font-family: Montserrat
+       font-size: 20px
+       font-weight: 500
+       line-height: 1.8
+       text-align: left
+     .textOption
+       padding-top: 15px
+       width: 554px
+       font-family: Poppins
+       font-size: 16px
+       font-weight: 400
+       line-height: 1.88
+       color: $white
+       text-align: left
+
+.price
+  width: 1920px
+  height: 966px
+  margin-left: -45px
+  background-color: $gray
+  .header_price
+   padding-top: 82px
+   color: $text_header
+   font-family: Montserrat
+   font-size: 36px
+   font-weight: 500
+   line-height: 1
+   text-align: center
+  .text_price
+   margin-top: 43px
+   margin-bottom: 94px
+   margin-left: 501.5px
+   width: 913px
+   color: $text_color
+   font-family: Poppins
+   font-weight: 400
+   font-size: 20px
+   line-height: 1.8
+   text-align: center
+  
+  .col-md-auto_tarif
+    width: 366px
+    height: 507px
+    margin-right: 18px 
+    margin-left: 18px 
+    border-radius: 20px
+    box-shadow: 0.7px 1.9px 5.6px 0.4px rgba(34, 31, 31, 0.24)
+    border: 2px solid #226be2
+
+    &:hover
+     height: 557px
+     align-items: center
+     background-image: linear-gradient(to left, #4085f6, #1760d7)
+     margin-top: -25px
+     transition: all 0.2s ease
+     .tarif_plan
+       color: $white
+       transition: all 0.2s ease
+     .tarif_price
+       color: $white
+       transition: all 0.2s ease
+     .limited_header
+       color: $white
+       transition: all 0.2s ease
+     .limited_list 
+       .checkbox-custom, 
+       .label
+         color: $white
+         transition: all 0.2s ease
+       .checkbox:checked + .checkbox-custom::before
+         content: url('../img/check_hover.gif')
+            
+    
+    .tarif_plan
+     padding-top: 33px
+     color: $text_header
+     font-family: Montserrat
+     font-size: 24px
+     font-weight: 600
+     line-height: 1.5
+     text-align: center
+    .tarif_price
+     padding-top: 24px
+     color: $button_color
+     font-family: Poppins
+     font-size: 36px
+     font-weight: 400
+     line-height: 1
+     text-align: center
+    .limited_header
+     padding-top: 22px
+     color: $text_header
+     font-family: Poppins
+     font-size: 18px
+     font-weight: 600
+     line-height: 2
+     text-align: center
+    
+    .limited_list
+     margin-top: 35px
+     
+     .checkbox
+       display: none
+       
+     .checkbox-custom
+       position: relative
+       width: 15px
+       height: 15px
+       border-radius: 50%
+       border: 1px solid #e05809
+       
+     .checkbox-custom,
+     .label 
+       display: inline-block
+       vertical-align: middle
+       justify-content: center
+       cursor: pointer
+       font-family: Poppins
+       font-size: 14px
+       font-weight: 400
+       line-height: 2.1
+       color: $text_color
+                    
+     .checkbox:checked + .checkbox-custom::before
+       content: url('../img/check.gif')
+       display: block
+       position: absolute
+       top: 1px
+       right: 1px
+       bottom: 1px
+       left: 1px
+
+    .button_purchase
+     display: flex
+     margin-top: 33px
+     margin-left: 81px
+     background-color: $gray
+     width: 205px
+     height: 55px
+     border-radius: 27px
+     cursor: pointer
+     border: 2px solid #226be2
+     .text_button_purchase
+       display: flex
+       justify-content: center
+       align-items: center
+       margin: auto
+       font-family: Poppins
+       font-size: 18px
+       font-weight: 500
+       line-height: 2
+       color: $button_color
+
+.header_screenshots
+ margin-top: 185px
+ color: $text_header
+ font-family: Montserrat
+ font-size: 36px
+ font-weight: 500
+ line-height: 1
+ text-align: center
+   
+.text_screenshots
+ margin-top: 51px
+ margin-left: 561px
+ width: 798px
+ color: $text_color
+ font-family: Poppins
+ font-weight: 400
+ font-size: 20px
+ line-height: 1.8
+ text-align: center
+
+
+    
+
+
+
+
+
+  
+
+
+ 
  
   
 
