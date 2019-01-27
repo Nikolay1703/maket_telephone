@@ -577,4 +577,222 @@ body {
   line-height: 1.8;
   text-align: center;
 }
+
+.data_input {
+  width: 1920px;
+  height: 712px;
+  background-color: #f7f7f7;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.data_input .header_hello {
+  padding-top: 80px;
+  margin-left: 22.5px;
+  color: #3b3b3b;
+  font-family: Raleway;
+  font-size: 39px;
+  font-weight: 600;
+  line-height: 0.4;
+  text-align: center;
+}
+
+.data_input .line {
+  content: url("../img/line.gif");
+  margin-left: 937px;
+  margin-top: 24px;
+}
+
+.data_input .text_hello {
+  margin-top: 15px;
+  margin-bottom: 64px;
+  margin-left: 710px;
+  width: 524px;
+  color: #3b3b3b;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 14.5px;
+  line-height: 1.72;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+
+.data_input .contact_information {
+  width: 379px;
+  height: 313px;
+  background-color: #ffffff;
+}
+
+.data_input .contact_information .col-md-auto_icon_location {
+  margin-left: 37px;
+  margin-top: 46px;
+}
+
+.data_input .contact_information .col-md-auto_data_location {
+  width: 200px;
+  height: 53px;
+  margin-left: 14px;
+  margin-top: 38px;
+  margin-bottom: -10px;
+}
+
+.data_input .contact_information .col-md-auto_data_location .word_location {
+  color: #3b3b3b;
+  font-family: Poppins;
+  font-size: 17.5px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0.18px;
+  text-align: left;
+}
+
+.data_input .contact_information .col-md-auto_data_location .location {
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 15.5px;
+  font-weight: 300;
+  line-height: 2.26;
+  color: #585858;
+  text-align: left;
+}
+
+.data_input .input_data_name {
+  width: 743px;
+  height: 48px;
+  background-color: #ffffff;
+  margin-left: -17px;
+  margin-bottom: 27px;
+}
+
+.data_input .input_data_name .input_name {
+  width: 743px;
+  height: 48px;
+  margin-left: 12px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: unset;
+  border: none;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 15.5px;
+  line-height: 2.26;
+  letter-spacing: 0.2px;
+}
+
+.data_input .input_data_email {
+  width: 743px;
+  height: 48px;
+  background-color: #ffffff;
+  margin-left: -17px;
+  margin-bottom: 27px;
+}
+
+.data_input .input_data_email .input_email {
+  width: 743px;
+  height: 48px;
+  margin-left: 12px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: unset;
+  border: none;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 15.5px;
+  line-height: 2.26;
+  letter-spacing: 0.2px;
+}
+
+.data_input .input_data_message {
+  width: 743px;
+  height: 163px;
+  background-color: #ffffff;
+  margin-left: -17px;
+}
+
+.data_input .input_data_message .input_message {
+  width: 743px;
+  height: 163px;
+  margin-left: 12px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: unset;
+  border: none;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 15.5px;
+  line-height: 2.26;
+  letter-spacing: 0.2px;
+  vertical-align: text-top;
+}
+
+.data_input .button_send_data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #226be2;
+  width: 158px;
+  height: 45px;
+  margin-left: 786px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.data_input .button_send_data .text_button_send_data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  font-family: Poppins;
+  font-size: 15.5px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+}
+
+.end_block {
+  width: 1920px;
+  height: 270px;
+  background-color: #13253b;
+}
+
+.end_block .col-md-auto_copyright {
+  margin-left: 374px;
+  margin-top: 100px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.31;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+}
+
+.end_block .links_social_network {
+  width: 469px;
+  height: 29px;
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 27px;
+  margin-right: 375px;
+  margin-top: 120px;
+}
+
+.end_block .links_social_network li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.end_block .links_social_network li a:hover {
+  color: #226be2;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
 /*# sourceMappingURL=main.css.map */
