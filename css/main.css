@@ -795,4 +795,38 @@ body {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
+
+.carousel-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 20px;
+  margin-top: 83px;
+}
+
+.carousel-inner .carousel-item {
+  margin-left: 380px;
+  margin-right: 380px;
+}
+
+.carousel-control-prev-icon {
+  display: inline-block;
+  margin-top: 32px;
+  margin-left: 889px;
+  width: 56px;
+  height: 56px;
+  content: url("../img/control-prev.gif");
+}
+
+.carousel-control-next-icon {
+  display: inline-block;
+  margin-top: 32px;
+  margin-left: 36px;
+  width: 56px;
+  height: 56px;
+  content: url("../img/control-next.gif");
+}
 /*# sourceMappingURL=main.css.map */
