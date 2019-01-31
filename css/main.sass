@@ -7,12 +7,13 @@ body
  background-repeat: no-repeat
  background-size: 1920px auto
 
-.container-fluid
+.container
  margin: auto
+ max-width: none
   
 .top_nav
- margin-top: 90px
- margin-left: 360px
+ margin: auto
+ padding-top: 90px
  width: 1170px
  color: $white
  font-family: Poppins
@@ -49,11 +50,12 @@ body
      line-height: 1.49
      color: $button_color
 .opisanie
- width: 1275px
- margin-left: 255px
+ display: flex
+ justify-content: center
+ margin: auto
  .zagolovok
-   margin-top: 229px
-   width: 592px
+   margin-top: 220px
+   width: 683px
    color: $white
    font-family: Montserrat
    font-size: 46px
@@ -61,39 +63,46 @@ body
    line-height: 1.35
    text-align: right
  .text
-   width: 591px
-   margin-top: 14px
+   width: 683px
+   margin-top: 26px
    color: $white
    font-family: Poppins
    font-size: 20px
    line-height: 1.8
    text-align: right
    margin-bottom: 75px
- .col-md-auto_link
-   position: relative
-   margin-right: 18px
-   background-color: $link_color
-   width: 230px
-   height: 81px
-   border-radius: 40px
-   cursor: pointer
-   .col-md-auto_icons
-     position: absolute
-     margin-left: 59px
-     margin-top: 41px
-   .row_text
-     position: absolute
-     margin-left: 111px
-     margin-top: 31px
-     .col-md-auto_text_top
-       margin-top: 11px
-       color: $white
-       font-family: Poppins
-       font-size: 13.5px
-       line-height: 2.56
-       text-align: left
-     .col-md-auto_text_bottom
-       margin-top: -6px
+
+ .block_links
+   display: flex
+   justify-content: space-between
+   width: 495px
+   margin-right: 5px
+   .col-md-auto_link
+     display: flex
+     justify-content: space-around
+     align-items: center
+     background-color: $link_color
+     width: 230px
+     height: 81px
+     border-radius: 40px
+     cursor: pointer
+     .col-md-auto_icons
+       display: flex
+       padding-right: 25px
+     .col-md-auto_textLink
+       width: 90px
+       height: 80px
+       padding-top: 8px
+       
+       .link_text_top
+         display: flex
+         color: $white
+         font-family: Poppins
+         font-size: 13.5px
+         line-height: 2.56
+         text-align: left
+       
+     .link_text_bottom
        color: $white
        font-family: Montserrat
        font-size: 19px
@@ -103,8 +112,9 @@ body
 .about_the_app
   
   .header_app
+   display: flex
+   justify-content: center
    margin-top: -10px
-   margin-left: 798px
    color: $text_header
    font-family: Montserrat
    font-size: 36px
@@ -113,9 +123,11 @@ body
       
    
   .text_app
-   margin-top: 42px
-   margin-bottom: 79px
-   margin-left: 479px
+   display: flex
+   justify-content: center
+   margin: auto
+   padding-top: 42px
+   padding-bottom: 79px
    width: 913px
    color: $text_color
    font-family: Poppins
@@ -124,9 +136,12 @@ body
    line-height: 1.8
    text-align: center
 .href_menu
-  margin-bottom: 90px
-  margin-left: 338px
-  
+  display: flex
+  justify-content: center
+  margin: auto
+  padding-bottom: 90px
+  width: auto
+    
   .support
     position: relative
     width: 358px
@@ -221,16 +236,16 @@ body
       text-align: center
      
 .functions
- width: 1920px
- height: 1297px
- margin-left: -45px
+ display: flex
+ justify-content: center
  background-image: url('../img/image-2.gif')
  background-repeat: no-repeat
- background-size: 1920px 1297px
+ background-size: auto
+ height: 1297px
  margin-bottom: 100px
  .header_features
    padding-top: 84px
-   margin-left: 22.5px
+   margin: auto
    color: $white
    font-family: Montserrat
    font-size: 36px
@@ -239,9 +254,9 @@ body
    text-align: center
 
  .text_features
-   margin-top: 35px
-   margin-bottom: 94px
-   margin-left: 501.5px
+   padding-top: 35px
+   padding-bottom: 94px
+   margin: auto
    width: 913px
    color: $white
    font-family: Poppins
@@ -279,9 +294,8 @@ body
        text-align: left
 
 .price
-  width: 1920px
+  background-size: auto
   height: 966px
-  margin-left: -45px
   background-color: $gray
   .header_price
    padding-top: 82px
@@ -292,9 +306,11 @@ body
    line-height: 1
    text-align: center
   .text_price
-   margin-top: 43px
-   margin-bottom: 94px
-   margin-left: 501.5px
+   display: flex
+   justify-content: center
+   margin: auto
+   padding-top: 43px
+   padding-bottom: 94px
    width: 913px
    color: $text_color
    font-family: Poppins
@@ -426,8 +442,10 @@ body
  text-align: center
    
 .text_screenshots
- margin-top: 51px
- margin-left: 561px
+ display: flex
+ justify-content: center
+ margin: auto
+ padding-top: 51px
  width: 798px
  color: $text_color
  font-family: Poppins
@@ -437,7 +455,7 @@ body
  text-align: center
 
 .data_input
- width: 1920px
+ width: auto
  height: 712px
  background-color: #f7f7f7
  background-repeat: no-repeat
@@ -454,14 +472,18 @@ body
    text-align: center
 
  .line
+   display: flex
+   justify-content: center
    content: url('../img/line.gif')
-   margin-left: 937px
-   margin-top: 24px
+   margin: auto
+   padding-top: 24px
 
  .text_hello
-   margin-top: 15px
-   margin-bottom: 64px
-   margin-left: 710px
+   display: flex
+   justify-content: center
+   padding-top: 15px
+   padding-bottom: 64px
+   margin: auto
    width: 524px
    color: #3b3b3b
    font-family: Poppins
@@ -549,6 +571,7 @@ body
    height: 163px
    background-color: $white
    margin-left: -17px
+   margin-bottom: 25px
    .input_message
      width: 743px
      height: 163px
@@ -563,14 +586,16 @@ body
      line-height: 2.26
      letter-spacing: 0.2px
      vertical-align: text-top
+     
 
  .button_send_data
    display: flex
+   justify-content: flex-start
+   margin-left: -17px
+   margin-top: 18px
    background-color: #226be2
    width: 158px
    height: 45px
-   margin-left: 786px
-   margin-top: 25px
    cursor: pointer
    .text_button_send_data
      display: flex
@@ -583,72 +608,91 @@ body
      letter-spacing: 0.3px
      color: $white
 
-.end_block
-  width: 1920px
-  height: 270px
-  background-color: #13253b
-  .col-md-auto_copyright
-   margin-left: 374px
-   margin-top: 100px
-   font-family: Montserrat
-   font-size: 16px
-   font-weight: normal
-   line-height: 1.31
-   letter-spacing: 0.4px
-   color: $white
-  .links_social_network 
-   width: 469px
-   height: 29px
-   list-style: none
-   padding: 0  
-   display: flex
-   font-size: 27px
-   margin-right: 375px
-   margin-top: 120px
-   li
-     a 
-       text-decoration: none 
-       color: $white
+.map
+  background-image: url('../img/map.gif')
+  background-repeat: no-repeat
+  width: auto
+  height: 390.5px
 
-       &:hover
-         color: #226be2
-         transition: all 0.4s ease
+.end_block
+ width: auto
+ height: 270px
+ background-color: #13253b
+ .content_end_block
+   display: flex
+   justify-content: space-between
+   align-items: center
+   width: 1170px
+   padding-top: 127px
+   
+   .col-md-auto_copyright
+     display: flex
+     justify-content: space-between
+     font-family: Montserrat
+     font-size: 16px
+     font-weight: normal
+     line-height: 1.31
+     letter-spacing: 0.4px
+     color: $white
+   .links_social_network 
+     display: flex
+     margin-right: 0px
+     width: 469px
+     height: 29px
+     list-style: none
+     font-size: 27px
+     li
+       a 
+         text-decoration: none 
+         color: $white
+
+         &:hover
+           color: #226be2
+           transition: all 0.4s ease
+
+
+.carousel-indicators
+  padding-right: 34px
 
 .carousel-inner
-  margin-left: 20px
-  margin-top: 83px
-  margin-bottom: 195px
+  display: inline-flexbox
+  justify-content: center
+  align-content: center
+  padding-top: 83px
+  margin: auto
+  width: 1170px
+  height: 645px
   .carousel-item
     width: 1134px
-    height: max-content
-    margin-left: 380px
+    height: auto
+    margin: auto
     
 
 
 .carousel-control-prev-icon
+  display: flex
   background-image: none
-  margin-top: 796px
-  margin-left: 1539px
   width: 74px
   height: 70px
   content: url('../img/control-prev.gif')
 
 .carousel-control-next-icon
+  display: flex
   background-image: none
-  display: inline-block
-  margin-top: 796px
-  margin-right: 1511px
   width: 74px
   height: 70px
   content: url('../img/control-next.gif')
   
 
 .talk_clients
- width: 1920px
+ width: auto
  height: 671px
+ margin-top: 105px
  background-image: linear-gradient(250deg, #4085f6, #1760d7)
  margin-bottom: 90px
  .header_clients
+   display: flex
+   justify-content: flex-end
    margin: auto
    margin-bottom: -30px
    padding-top: 90px
