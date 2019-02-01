@@ -910,7 +910,11 @@ body {
   height: 645px;
 }
 
-.carousel-inner .carousel-item {
+.carousel_Height {
+  height: 425px;
+}
+
+.carousel_Height .carousel-item {
   width: 1134px;
   height: auto;
   margin: auto;
